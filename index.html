@@ -1,0 +1,472 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> All-Wall</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c5a3abb92.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <!-- <img src="images/logo.png" alt="LOGO" class="logo"> -->
+            <h2 class="logo">Anjan-Wall</h2>
+            <ul>
+                <li>
+                    <img src="images/notification.png" alt="Notification">
+                </li>
+                <li>
+                    <img src="images/inbox.png" alt="Inbox">
+                </li>
+                <li>
+                    <img src="images/video.png" alt="Notification">
+                </li>
+            </ul>
+            <!-- <h2>Anjan-Wall</h2> -->
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="Searc">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="ProfilePic">
+            </div>
+        </div>
+        <!-- Setting Menu -->
+        <div class="settings-menu">
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="Anjan">
+                    <div>
+                        <p>Anjan</p>
+                        <a href="">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="Anjan">
+                    <div>
+                        <p>Gift Feedback</p>
+                        <a href="">Help us to improve new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icons">
+                    <a href="">
+                        Settings & Privacy <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icons">
+                    <a href="">
+                        Help & Support <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icons">
+                    <a href="">
+                        Display & Accessibility <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icons">
+                    <a href="">
+                       Logout <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+            </div>
+           
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Left SideBar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="ANJAN-Latest News"> Latest News </a>
+                <a href="#"><img src="images/friends.png" alt="ANAJAN-Friends"> Friends </a>
+                <a href="#"><img src="images/group.png" alt="ANJAN-Group"> Group </a>
+                <a href="#"><img src="images/marketplace.png" alt="ANJAN-Marketplace"> Marketplace </a>
+                <a href="#"><img src="images/watch.png" alt="ANJAN-Watch"> Watch </a>
+                <a href="#"> See More </a>
+            </div>
+            <div class="shortcut-links">
+                <p> Friends & Colleagues</p>
+                <a href="#"> <img src="images/friend1.JPG" alt="Anjan-Wall"> Pradeep Vajja</a>
+                <a href="#"> <img src="images/friend2.JPG" alt="Anjan-Wall"> Vasudeva Rao S</a>
+                <a href="#"> <img src="images/friend3.png" alt="Anjan-Wall"> Teja Anil Kumar J</a>
+                <a href="#"> <img src="images/friend4.png" alt="Anjan-Wall"> Sai Kumar G</a>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="Anjan"> 
+                    <p>Post Story-AS</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-2.png" alt="Anjan"> 
+                    <p>Anjan</p>
+                </div>
+                <div class="story story3" >
+                    <!-- <img src="images/member-3.png" alt="Anjan">  -->
+                    <p>Sailaja</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-4.png" alt="Anjan"> 
+                    <p>Nandeep</p>
+                </div>
+                <div class="story story5">
+                    <!-- <img src="images/member-5.png" alt="Anjan">  -->
+                    <p>Ramya</p>
+                </div>
+                
+                
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="Anjan">
+                    <div>
+                        <p>Anjan</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-inpit-container">
+                    <textarea  rows="3" placeholder="What's on your mind ANR? ">  What's on your mind?</textarea>
+                    <div class="add-post-links">
+                        <a href="">
+                            <img src="images/live-video.png"> Live Video
+                        </a>
+                        <a href="">
+                            <img src="images/photo.png"> Photo/Video
+                        </a>
+                        <a href="">
+                            <img src="images/feeling.png"> Feeling/Activity
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-1.png" alt="Anjan">
+                        <div>
+                            <p>Siva</p>
+                            <span>Sep 28 2022, 05:22 </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                
+                <p class="post-text">
+                    #Family vacations not only build life long memories,  opening your minds to new cultures, foods and experiences </p>
+                <img src="images/ugadi.png" alt="Anjan" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png"> 9000k
+                        </div>
+                        <div>
+                            <img src="images/comments.png"> 200k
+                        </div>
+                        <div>
+                            <img src="images/share.png"> 3400
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-1.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="Anjan">
+                        <div>
+                            <p>Anjan</p>
+                            <span>Aug 15 2021, 14:22 </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                
+                <p class="post-text"> Watch My Tech Video Tutorial and Visit my <span> Github</span>  to know about me. <a href="https://github.com/AnjanRaoCh" target="new">#Anjan Work</a> and Sample React hosting Site  <a href="https://anjanraoch.github.io/">#React</a></p>
+                <img src="images/feed-image-1.png" alt="Anjan" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png"> 120
+                        </div>
+                        <div>
+                            <img src="images/comments.png"> 12
+                        </div>
+                        <div>
+                            <img src="images/share.png"> 40
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/friend3.png" alt="Anjan">
+                        <div>
+                            <p>Teja</p>
+                            <span>Jan 28 2020, 14:22 </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                
+                <p class="post-text"> the application of scientific <a>#knowledge</a> for practical purposes, especially in industry.<br><a>#knowledge is Fire</a></p>
+                <img src="images/feed-image-2.png" alt="Anjan" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png"> 690
+                        </div>
+                        <div>
+                            <img src="images/comments.png"> 192
+                        </div>
+                        <div>
+                            <img src="images/share.png"> 340
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/friend3.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/friend4.png" alt="Anjan">
+                        <div>
+                            <p>Sai</p>
+                            <span>Feb 28 2019, 14:22 </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                
+                <p class="post-text">You should expect it to cost between $20,000 to $30,000 per person to travel around the world for a year. This rough estimate comes from reading travel budgets of other bloggers</p>
+                <img src="images/feed-image-3.png" alt="Anjan" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png"> 90
+                        </div>
+                        <div>
+                            <img src="images/comments.png"> 2
+                        </div>
+                        <div>
+                            <img src="images/share.png"> 34
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/friend4.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic-old.png" alt="Anjan">
+                        <div>
+                            <p>John</p>
+                            <span>Apr 6 2022, 04:22 </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                
+                <p class="post-text"> The day is observed by drawing <a>#colourful</a>  patterns on the floor called #Muggulu, mango leaf decorations on doors called torana, <a>#tag Ugadi</a> </p>
+                <img src="images/ugadi1.png" alt="Anjan" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png"> 12k
+                        </div>
+                        <div>
+                            <img src="images/comments.png"> 560
+                        </div>
+                        <div>
+                            <img src="images/share.png"> 350
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic-old.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-5.png" alt="Anjan">
+                        <div>
+                            <p>AK Reddy</p>
+                            <span>Jan 16 2012, 16:26 </span>
+                        </div>
+                    </div>
+                    <a href=""> <i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                
+                <p class="post-text">Hard work is what you do on top of all that. It's what you do after you've put in your eight hours, after you've cleaned your apartment</p>
+                <img src="images/feed-image-4.png" alt="Anjan" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="images/like-blue.png"> 54k
+                        </div>
+                        <div>
+                            <img src="images/comments.png"> 234
+                        </div>
+                        <div>
+                            <img src="images/share.png"> 454
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-5.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-button">Load More</button>
+        </div>
+        <!-- Right SideBar -->
+        <div class="rigth-sidebar">
+            <div class="sidebar-title">
+                <h4>
+                    Event
+                </h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Home Tour</h4>
+
+                    <p> <i class="fa-solid fa-location-pin"></i> Hyderabad-Podili</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <!-- <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>Apr</span>
+                </div>
+                <div class="right-event">
+                    <h4>CSS Workshop</h4>
+
+                    <p> <i class="fa-solid fa-location-pin"></i> Vizag</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div> -->
+            <div class="event">
+                <div class="left-event">
+                    <h3>31</h3>
+                    <span>Dec</span>
+                </div>
+                <div class="right-event">
+                    <h4>Welcome Party</h4>
+
+                    <p> <i class="fa-solid fa-location-pin"></i> Hyderabad-Malaysia</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>
+                    Ugadi
+                </h4>
+                <a href="#">Click Here</a>
+            </div>
+            <img src="images/ugadi1.png" alt="Anjan" class="sidebar-ads">
+            <img src="images/ugadi.png" alt="Anjan" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>
+                    Conversation
+                </h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="ANJAN">
+                </div>
+                <p>Siva Anjan</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="ANJAN">
+                </div>
+                <p>Nandeep P</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="ANJAN">
+                </div>
+                <p>Sailaja B</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" alt="ANJAN">
+                </div>
+                <p>Ramthulla SK</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-5.png" alt="ANJAN">
+                </div>
+                <p>Rohit</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-6.png" alt="ANJAN">
+                </div>
+                <p>Srivalli</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-7.png" alt="ANJAN">
+                </div>
+                <p>Manoj</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-8.png" alt="ANJAN">
+                </div>
+                <p>Puja</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-9.png" alt="ANJAN">
+                </div>
+                <p>Amit</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2022 - Anjan</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
